@@ -5,7 +5,6 @@
 
 /* UNIVERSAL STYLES */
 html, body {
-    font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
     color: #000;
     overflow-x: hidden;
@@ -29,20 +28,27 @@ h2 {
 
  }
 
+ /* FOOTER */
+
 footer {
     border-top: 1px solid #D7D7D7;
     padding: 25px 0;
-    font-family: 'Space Grotesk', sans-serif;
     text-align: center;
     background-color: #fff;
     color: #000;
+}
+
+.footer-logo {
+    font-family: 'Space Grotesk', sans-serif;
     letter-spacing: -1.5px;
     font-weight: 500;
     font-size: 18px;
 }
 
-.copy {
-    font-family: 'Poppins', sans-serif;
+.legal {
+    padding: 0 5px;
+    color: #3A414B;
+    font-size: 12px;
 }
 
 /* BUTTONS */
@@ -257,6 +263,11 @@ footer {
     padding-bottom: 75px;
 }
 
+.how-it-works img {
+    border-radius: 10px;
+    
+}
+
 .how-it-works h2 {
     text-align: center;
 }
@@ -324,9 +335,16 @@ footer {
 
  /* SIGN UP */
 
- .sign-up {
+ .sign-up-blue {
     background-color: #0056FF;
     color: #fff;
+    padding-top: 75px;
+    padding-bottom: 75px;
+ }
+
+ .sign-up-white {
+    background-color: #fff;
+    color: #000;
     padding-top: 75px;
     padding-bottom: 75px;
  }
@@ -336,6 +354,12 @@ footer {
      font-size: 18px;
      color: #D7D7D7;
  }
+
+ .sign-up-white p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #5B616E;
+}
 
  .sign-up .form-control {
     width: 100%;
@@ -380,6 +404,14 @@ footer {
     font-size: 24px;
 }
 
+.sign-up-white .sign-up-usp .material-icons-outlined {
+    margin-right: 15px;
+    color:#0056FF;
+    position: relative;
+    top: 5px;
+    font-size: 24px;
+}
+
 @media (max-width: 576px) { 
 
     .sign-up {
@@ -405,5 +437,15 @@ footer {
     .sign-up-usp .material-icons-outlined {
         margin-right: 15px;
     }
+
+    .sign-up-blue {
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+
+    .sign-up-white {
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
 
  }
